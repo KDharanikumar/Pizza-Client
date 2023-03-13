@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "Poppins";
+}
+
+ul {
+	padding: 0 !important;
+	margin: 0px !important;
+}
+a {
+	text-decoration: none;
+	color: white !important;
+}
+/****************************************************BUTTON***************************************************/
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: fit-content;
+	width: fit-content;
+	background-color: #dc3545;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+button:hover {
+	background-color: #b2001f;
+}
+
+.cat-filter button {
+	margin: 0px 20px;
+}
+
+/****************************************************MENU***************************************************/
+
+.logo {
+	font-size: 28px;
+	font-weight: 800;
+	font-style: italic;
+}
+.menubar {
+	background-color: #b2001f;
+}
+
+.menu-name li {
+	margin-right: 30px;
+}
+
+/****************************************************BANNER***************************************************/
+.banner-text {
+	color: #fff;
+}
+
+.banner-text h3 {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.banner-text h1 {
+	font-size: 64px;
+	font-weight: 800;
+}
+
+.banner-text p {
+	font-size: 16px;
+	font-weight: 400;
+	text-align: justify;
+}
+.BannerImage {
+	max-width: 100%;
+}
+
+/****************************************************PRODUCT CARD***************************************************/
+
+/* .productCard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+} */
+
+.productCard .card {
+	height: 400px;
+	width: 300px;
+	text-align: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border: #fff;
+	cursor: pointer;
+}
+
+.productCard img {
+	height: 180px;
+	width: 250px;
+	/* object-fit: contain; */
+	margin: 2px;
+}
+.productCard img:hover {
+	transform: scale3d(1.1, 1.1, 1);
+	transition: transform 1s ease-in-out;
+}
+
+.productCard .prod-name {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.productCard .prod-category {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.productCard .prod-price {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.productCard .prod-price span {
+	font-size: 18px;
+	font-weight: 600;
+	color: #e6173a;
+}
+
+/****************************************************SIGN IN***************************************************/
+
+.signin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #b2001f;
+}
+
+.signin-card {
+	height: 450px;
+	width: 350px;
+}
+
+.user-pic {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: rgb(198, 24, 24);
+}
+
+.signin form input {
+	border-radius: 5;
+}
+
+.signin form input:focus {
+	border-color: #dc3545;
+	box-shadow: none;
+}
+
+/****************************************************SIGN UP***************************************************/
+
+.signup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #b2001f;
+}
+
+.signup-card {
+	height: 550px;
+	width: 350px;
+}
+
+.signup form input {
+	border-radius: 5;
+}
+
+.signup form input:focus {
+	border-color: #dc3545;
+	box-shadow: none;
+}
+
+/****************************************************CART PAGE***************************************************/
+
+.cart-image {
+	height: 80px;
+	width: 80px;
+}
+
+.del-icon {
+	font-size: 24px;
+	color: #dc3545;
+}
+
+.product-card table td,
+th {
+	padding: 0 50px;
+}
