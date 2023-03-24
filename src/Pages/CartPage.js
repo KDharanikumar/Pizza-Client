@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { AiFillDelete, AiFillMinusSquare, AiFillPlusSquare } from "react-icons/ai";
+import { AiFillDelete } from "react-icons/ai";
 // import { Link } from "react-router-dom";
 import StripeCheckout from "react-stripe-checkout";
 import Menu from "../Components/Header/Menu";

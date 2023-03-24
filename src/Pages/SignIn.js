@@ -81,21 +81,20 @@ const SignIn = () => {
 									</div>
 									<div className="d-grid gap-4 mb-3">
 										<div className="d-grid gap-4 mb-3">
-											<input
-												type="submit"
-												className="form-control"
-												style={{ backgroundColor: "#DC3545", color: "#fff" }}
-												value={"Login"}
-											/>
+											<input type="submit" className="form-control" style={{ backgroundColor: "#DC3545", color: "#fff" }} value={"Login"} />
 										</div>
 									</div>
-									<div>
+									<div className="mb-2">
 										Don’t have an account?
 										<span className="fs-6 mx-2">
 											<Link to="/signup" className="text-danger">
 												Sign up
 											</Link>
 										</span>
+									</div>
+									<div>
+										<p className="mb-0">User : admin@gmail.com</p>
+										<p>Password : welcome</p>
 									</div>
 								</form>
 							</div>
